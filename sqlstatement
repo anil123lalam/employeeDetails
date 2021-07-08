@@ -4,7 +4,7 @@ CREATE TABLE `employee_details` (
   `emp_firstName` varchar(45) DEFAULT NULL,
   `emp_lastName` varchar(45) DEFAULT NULL,
   `emp_email` varchar(45) DEFAULT NULL,
-  `emp_doj` datetime DEFAULT NULL,
+  `emp_doj` varchar(45) DEFAULT NULL,
   `emp_salary` double DEFAULT NULL,
   PRIMARY KEY (`pklId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
