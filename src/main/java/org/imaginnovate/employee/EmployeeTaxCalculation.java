@@ -15,7 +15,7 @@ public class EmployeeTaxCalculation {
 			tax2 = tempsal * 5 / 100;
 		}
 		if (taxEmployee.getYearlySal() > 5000000 && taxEmployee.getYearlySal() <= 10000000) {
-			double tempsal = taxEmployee.getYearlySal() - 10000000;
+			double tempsal = taxEmployee.getYearlySal() - 5000000;
 			tax1 = tempsal * 10 / 100;
 		}
 
